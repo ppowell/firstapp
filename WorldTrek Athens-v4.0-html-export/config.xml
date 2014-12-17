@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets" id="com.appshed.worldtrekathens" version="4.0.0" versionCode="4">
+  <name>WorldTrek Athens</name>
+  <description>This is a fun and friendly way to learn about the </description>
+  <author email="12KozR@skinnersacademy.org.uk">Romazzyvu</author>
+  <content src="index.html"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="detect-data-types" value="false"/>
+  <preference name="stay-in-webview" value="true"/>
+  <rim:navigation mode="focus"/>
+  <preference name="disable-cursor" value="true"/>
+  <feature id="blackberry.app"/>
+  <feature id="blackberry.system"/>
+  <feature id="blackberry.system.event"/>
+  <feature id="blackberry.identity"/>
+  <feature id="blackberry.invoke"/>
+  <feature id="blackberry.invoke.BrowserArguments"/>
+  <feature id="blackberry.bbm.platform"/>
+  <rim:permissions>
+    <rim:permit>bbm_connect</rim:permit>
+  </rim:permissions>
+  <access origin="*" uri="*"/>
+  <access origin="http://appshed.com/" uri="http://appshed.com/" subdomains="true"/>
+  <access origin="http://youtube.com" uri="http://youtube.com" subdomains="true"/>
+  <access origin="http://facebook.com" uri="http://facebook.com" subdomains="true"/>
+  <access origin="http://vimeo.com" uri="http://vimeo.com" subdomains="true"/>
+  <gap:plugin name="com.adobe.plugins.gaplugin"/>
+  <gap:plugin name="org.apache.cordova.inappbrowser"/>
+  <gap:plugin name="org.apache.cordova.camera"/>
+  <gap:plugin name="org.apache.cordova.media-capture"/>
+  <gap:plugin name="org.apache.cordova.geolocation"/>
+  <gap:plugin name="org.apache.cordova.dialogs"/>
+  <gap:plugin name="org.apache.cordova.file-transfer"/>
+  <icon src="Icon2x.png" width="29" height="29" gap:platform="ios"/>
+  <icon src="size_app_icon_iphone_settings_retina2x.png" width="58" height="58" gap:platform="ios"/>
+  <icon src="icon_ipad_ios6_spotlight.png" width="50" height="50" gap:platform="ios"/>
+  <icon src="icon_ipad_ios6_spotlight_retina.png" width="100" height="100" gap:platform="ios"/>
+  <icon src="icon_app_spotlight.png" width="100" height="100" gap:platform="ios"/>
+  <icon src="Icon.png"/>
+  <icon src="Icon.png" width="57" height="57" gap:platform="ios"/>
+  <icon src="Icon2x.png" width="114" height="114" gap:platform="ios"/>
+  <icon src="iclauncher-ldpi.png" gap:platform="android" gap:density="ldpi"/>
+  <icon src="iclauncher-mdpi.png" gap:platform="android" gap:density="mdpi"/>
+  <icon src="iclauncher-hdpi.png" gap:platform="android" gap:density="hdpi"/>
+  <icon src="iclauncher-xhdpi.png" gap:platform="android" gap:density="xhdpi"/>
+  <icon src="Icon.png" gap:platform="blackberry"/>
+  <gap:splash src="Default.png"/>
+  <gap:splash src="Default.png" width="320" height="480" gap:platform="ios"/>
+  <gap:splash src="Default2x.png" width="640" height="960" gap:platform="ios"/>
+  <gap:splash src="Defaulth5682x.png" width="640" height="1136" gap:platform="ios"/>
+  <gap:splash src="Default.png" gap:platform="blackberry"/>
+  <rim:loadingScreen backgroundImage="Default.png"/>
+</widget>
